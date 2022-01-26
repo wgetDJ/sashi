@@ -1,0 +1,141 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fff4e8;
+  color: #4b4b4b;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  background-image: url(../img/cream-texture.jpg);
+  background-position: center;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.container {
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 10rem;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.header img {
+  width: 10rem;
+}
+
+.header h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+}
+
+.header p {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.main {
+  width: 100%;
+  background: #6f7a71;
+  color: #f5e8de;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.main .main__start {
+  background-image: url(../img/cut-out-top.png);
+  height: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 5rem;
+}
+
+.main .main__end {
+  background-image: url(../img/cut-out-bottom.png);
+  height: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 5rem;
+}
+
+.main .container {
+  padding: 1.5rem 0;
+}
+
+.main .container p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fafafa;
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
+}
+
+.main h2 {
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.05rem;
+}
+
+.main p {
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  margin-top: 1.5rem;
+}
+
+.main p:first-child {
+  text-indent: 4rem;
+  margin-top: 0;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1rem;
+  width: 100vw;
+  padding: 1rem 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #4b4b4b;
+  margin-right: 1rem;
+}
+
+.footer a:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=main.css.map */
