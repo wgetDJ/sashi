@@ -17,6 +17,7 @@ body {
   background-image: url(../img/cream-texture.jpg);
   background-position: center;
   padding-bottom: 2rem;
+  overflow-x: hidden;
 
   @include flexCenter(center, center, column, 2rem);
 }
