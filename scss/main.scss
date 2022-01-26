@@ -49,6 +49,30 @@ body {
     font-size: 1.2rem;
     letter-spacing: 0.05rem;
   }
+
+  & .nav {
+    width: 100%;
+    margin-top: 5rem;
+
+    & ul {
+      list-style: none;
+      @include flexCenter(center, center, row, 2rem);
+
+      & li {
+        & a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 700;
+          letter-spacing: 0.05rem;
+          color: $color-dark-gray;
+          transition: 0.2s;
+        }
+        & a:hover {
+          color: $color-green;
+        }
+      }
+    }
+  }
 }
 
 .main {
@@ -104,17 +128,27 @@ body {
 }
 
 .footer {
-  @include flexCenter(center, center, row, 1rem);
+  @include flexCenter(center, center, column, 1rem);
   width: 100vw;
   padding: 1rem 0;
 
-  & a {
-    text-decoration: none;
-    color: $color-dark-gray;
-    margin-right: 1rem;
+  & .contact {
+    @include flexCenter(center, center, row, 1rem);
+
+    & a {
+      text-decoration: none;
+      color: $color-dark-gray;
+      margin-right: 1rem;
+    }
+
+    & a:last-child {
+      margin-right: 0;
+    }
   }
 
-  & a:last-child {
-    margin-right: 0;
+  & p {
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    margin-top: 1.5rem;
   }
 }
